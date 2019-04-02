@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:background="@drawable/item_background"
+		android:padding="10dp">
+
+		<ImageView
+			android:layout_height="100dp"
+			android:layout_width="70dp"
+			android:src="@drawable/default_poster"
+			android:id="@+id/rowMovieIVCover"
+			android:scaleType="centerCrop"/>
+
+		<View
+			android:layout_height="match_parent"
+			android:layout_width="1dp"
+			android:layout_margin="5dp"
+			android:background="#DDDDDD"/>
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:gravity="left|center"
+			android:layout_marginLeft="2dp">
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:id="@+id/rowMovieTvTitle"
+					android:textColor="@color/movie_item_title"
+					android:typeface="serif"
+					android:text="Title"
+					android:singleLine="true"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:orientation="horizontal">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:text="@string/release_a"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="2005"
+					android:layout_width="wrap_content"
+					android:id="@+id/rowMovieTVRelease"
+					android:textColor="@color/movie_item_other"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:orientation="horizontal">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="@string/genre_a"
+					android:layout_width="wrap_content"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Genre : Action,Fantasi"
+					android:layout_width="wrap_content"
+					android:typeface="serif"
+					android:textColor="@color/movie_item_other"
+					android:id="@+id/rowMovieTVGenre"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<ImageButton
+		style="?android:attr/buttonBarButtonStyle"
+		android:layout_height="60dp"
+		android:layout_width="60dp"
+		android:src="@drawable/ic_favourite"
+		android:layout_alignParentRight="true"
+		android:id="@+id/rowmovieIBFavourite"
+		android:scaleType="centerCrop"
+		android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+

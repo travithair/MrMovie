@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<item
+		android:id="@+id/menu_favourite"
+		android:icon="@drawable/abc_ic_star_black_16dp"
+		android:title="@string/favorite"
+		app:showAsAction="collapseActionView|ifRoom"/>
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/abc_ic_search_api_material"
+        android:title="@string/menu_search"
+        app:showAsAction="collapseActionView|ifRoom"/>
+    <item
+        android:id="@+id/menu_refresh"
+        android:title="@string/menu_refresh"/>
+    <item
+        android:id="@+id/menu_language"
+        android:title="@string/menu_language"/>
+    <item
+        android:id="@+id/menu_exit"
+        android:title="@string/menu_exit"/>
+
+</menu>

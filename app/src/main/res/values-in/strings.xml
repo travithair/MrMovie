@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--nama aplikasi-->
+    <string name="app_name">Mr. Movie V 4</string>
+	<!--hint pencarian-->
+	<string name="search_hint">Cari Film</string>
+	<!--text release-->
+	<string name="release_a">Rilis : </string>
+	<string name="release_b">Rilis</string>
+	<!--text genre-->
+	<string name="genre_a">Aliran : </string>
+	<string name="genre_b">Aliran</string>
+	<!--text overview-->
+	<string name="overview">Sinopsis</string>
+	<!--text rating-->
+	<string name="rating">Peringkat</string>
+	<!--text popularity-->
+	<string name="popularity">Popularitas</string>
+	<!--text language-->
+	<string name="language">Bahasa</string>
+	<!--text unknown-->
+	<string name="unknown">Tidak Diketahui</string>
+	<!--text please wait-->
+	<string name="please_wait">Silahkan Tunggu</string>
+	<!--text Loading-->
+	<string name="loading">Memproses</string>
+	<!--text Search-->
+	<string name="search">Cari</string>
+	<!--text menu Refresh-->
+	<string name="menu_refresh">Perbarui Daftar</string>
+	<!--text Now Playing-->
+	<string name="now_playing">Telah Rilis</string>
+	<!--text Upcoming-->
+	<string name="upcoming">Akan Datang</string>
+	<!--text menu Search-->
+	<string name="menu_search">Cari</string>
+	<!--text menu Language-->
+	<string name="menu_language">Bahasa</string>
+	<!--text menu Exit-->
+	<string name="menu_exit">Keluar</string>
+	<string name="favorite">Favorit</string>
+	<string name="no_favourite">Belum ada film favorit...</string>
+</resources>

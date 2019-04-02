@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="match_parent">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical"
+			android:gravity="center"
+			android:padding="10dp"
+			android:background="@drawable/item_background"
+			android:layout_margin="5dp">
+
+			<ImageView
+				android:layout_height="230dp"
+				android:layout_width="150dp"
+				android:src="@drawable/default_poster"
+				android:scaleType="centerCrop"
+				android:id="@+id/rowMovieIVCover"/>
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="match_parent"
+				android:orientation="vertical"
+				android:padding="10dp"
+				android:layout_marginTop="5dp">
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Title"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="wrap_content"
+					android:id="@+id/rowMovieTvTitle"
+					android:singleLine="true"
+					android:textColor="@color/accent"
+					android:typeface="serif"
+					android:textStyle="bold"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Release"
+					android:layout_width="wrap_content"
+					android:id="@+id/rowMovieTVRelease"
+					android:singleLine="true"
+					android:textColor="@color/movie_item_other"
+					android:typeface="serif"/>
+
+				<View
+					android:layout_height="1dp"
+					android:layout_width="match_parent"
+					android:background="@color/accent"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:id="@+id/rowMovieTVGenre"
+					android:visibility="gone"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<ImageButton
+		style="?android:attr/buttonBarButtonStyle"
+		android:layout_height="60dp"
+		android:layout_width="60dp"
+		android:src="@drawable/ic_favourite"
+		android:layout_alignParentRight="true"
+		android:scaleType="centerCrop"
+		android:id="@+id/rowmovieIBFavourite"/>
+
+</RelativeLayout>
+

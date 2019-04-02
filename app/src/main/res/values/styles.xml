@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<!--tema publik untuk aplikasi-->
+	<!--Tema asal Theme.AppCompat.Light dengan Tanpa ActionBar-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<!--untuk warna Action Bar-->
+		<item name="colorPrimary">@color/primary</item>
+		<!--untuk warna Status Bar-->
+		<item name="colorPrimaryDark">@color/primaryDark</item>
+		<!--untuk warna Item Accent-->
+		<item name="colorAccent">@color/accent</item>
+		<!--untuk warna Nama Aplikasi di Action Bar-->
+		<item name="titleTextColor">#ffffff</item>
+		<item name="android:colorBackground">#ffffff</item>
+		<item name="android:windowBackground">@color/windowBG</item>
+		<item name="iconTint">#ffffff</item>
+	</style>
+	
+</resources>

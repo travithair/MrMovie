@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--nama aplikasi-->
+	<string name="app_name">Mr. Movie V 4</string>
+	<!--hint pencarian-->
+	<string name="search_hint">Find Movie</string>
+	<!--text release-->
+	<string name="release_a">Release : </string>
+	<string name="release_b">Release</string>
+	<!--text genre-->
+	<string name="genre_a">Genres : </string>
+	<string name="genre_b">Genres</string>
+	<!--text overview-->
+	<string name="overview">Overview</string>
+	<!--text rating-->
+	<string name="rating">Rating</string>
+	<!--text popularity-->
+	<string name="popularity">Popularity</string>
+	<!--text language-->
+	<string name="language">Language</string>
+	<!--text unknown-->
+	<string name="unknown">Unknown</string>
+	<!--text please wait-->
+	<string name="please_wait">Please Wait</string>
+	<!--text Loading-->
+	<string name="loading">Loading</string>
+	<!--text Search-->
+	<string name="search">Search</string>
+	<!--text Now Playing-->
+	<string name="now_playing">Now Playing</string>
+	<!--text Upcoming-->
+	<string name="upcoming">Upcoming</string>
+	<!--text menu Search-->
+	<string name="menu_search">Search</string>
+	<!--text menu Refresh-->
+	<string name="menu_refresh">Refresh List</string>
+	<!--text menu Language-->
+	<string name="menu_language">Language</string>
+	<!--text menu Exit-->
+	<string name="menu_exit">Exit</string>
+	<string name="favorite">Favorite</string>
+	<string name="no_favourite">No Favourite Movie...</string>
+</resources>
